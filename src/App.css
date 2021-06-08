@@ -1,38 +1,77 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  padding-top: 5rem;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* background: slategray; */
+  background: linear-gradient(to right, #0d0c0d, #EFEFBB);
 }
 
-.App-link {
-  color: #61dafb;
+.loading-text {
+  text-align: center;
+  color: #0d0c0d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Route Link */
+.route-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.route-link:hover {
+  text-decoration: none;
+  color: #ef5350;
+}
+
+/* Normal Links */
+.normal-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.normal-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Utility CSS */
+.capitalize {
+  text-transform: capitalize;   
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+/* Animations */
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
   }
-  to {
-    transform: rotate(360deg);
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
   }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+#search, #search-result {
+  margin: 0px auto;
+  width: 90%;
+}
+
+/* Overwriting bootstrap css */
+.modal {
+  color: black;
+}
+.modal-backdrop {
+  z-index: 0;
 }
