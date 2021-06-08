@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PokemonThumb from './components/PokemonThumb'
-import PokemonDetails from './components/PokemonDetails'
+
 
 const App = () => {
 
@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1>Pokemon</h1>
+      <h1>Pokemons</h1>
       <div className="pokemon-container">
         <div className="all-container">
           {allPokemons.map( (pokemonStats, index) => 
@@ -50,3 +50,4 @@ const App = () => {
 }
 
 export default App;
+
