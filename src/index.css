@@ -50,6 +50,7 @@ code {
   justify-content: center;
   min-height: 100vh;
   padding: 3rem 0.5rem;
+  background: #d7293b;
 }
 .pokemon-container {
   display: flex;
@@ -70,8 +71,8 @@ code {
   justify-content: center;
   padding: 1.5rem 0 ;
   margin: 0.3rem;
-  border: 1px solid #efefef;
-  border-radius: 0.2rem;
+  border: 7px solid #4d2a2a;
+  border-radius: 1.2rem;
   min-width: 160px;
   text-align: center;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
