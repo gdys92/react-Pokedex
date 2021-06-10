@@ -1,0 +1,28 @@
+.App {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-color: #d7293b;
+    padding-top: 4rem;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    background-color: #93142c !important;
+    margin-bottom: 20rem;
+    
+  }
+  .navbar-brand {
+    margin-left: 20px;
+  }
+  
+  .row {
+    margin-top: 26px;
+  
+  }
+  .card-header {
+    background: #e5e5e5;
+  }
+  .card-body{
+    padding: 3rem;
+  }
